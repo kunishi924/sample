@@ -1,5 +1,4 @@
 - hosts: target
-  become: yes
-  become_user: root
+  user: ec2-user
   tasks:
     - ping: 
