@@ -1,0 +1,7 @@
+# site.yml
+---
+- hosts: target
+  user: ec2-user
+  roles:
+    - add_file
+    - lineinfile

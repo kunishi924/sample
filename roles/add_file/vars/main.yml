@@ -1,0 +1,4 @@
+# roles/add_file/vars/main.yml
+---
+directory_path: semaphore_sample/
+file_path: semaphore_sample/sample.txt

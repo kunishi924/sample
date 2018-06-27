@@ -1,0 +1,11 @@
+# roles/add_file/tasks/main.yml
+---
+- name: add new directory
+  file:
+    path: "{{ directory_path }}"
+    state: directory
+
+- name: add new file
+  file:
+    path: "{{ file_path }}"
+    state: touch

@@ -1,0 +1,7 @@
+# roles/lineinfile/tasks/main.yml
+---
+- name: add line
+  lineinfile:
+    path: "{{ file_path }}"
+    state: present
+    line: "{{ line }}"

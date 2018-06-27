@@ -1,0 +1,4 @@
+# roles/lineinfile/vars/main.yml
+---
+file_path: semaphore_sample/sample.txt
+line: semaphore sample
